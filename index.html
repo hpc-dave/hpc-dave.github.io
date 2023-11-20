@@ -29,12 +29,12 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     <link rel='icon' type='image/png' sizes='96x96' href='favicon-96x96.png'>
     <link rel='stylesheet' href='css/common.css'>
 
-    <title>Test AR Session</title>
+    <title>Test paraview</title>
   </head>
   <body>
     <header>
       <details open>
-        <summary>Test AR Session</summary>
+        <summary>Test paraview</summary>
         <p>
           This sample demonstrates how to use an 'immersive-ar' XRSession to
           present a simple WebGL scene to a transparent or passthrough XR
@@ -77,8 +77,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       solarSystem.scale = [0.1, 0.1, 0.1];
       scene.addNode(solarSystem);
       // Still adding a skybox, but only for the benefit of the inline view.
-      let skybox = new SkyboxNode({url: 'media/textures/milky-way-4k.png'});
-      scene.addNode(skybox);
+     let skybox = new SkyboxNode({url: 'media/textures/milky-way-4k.png'});
+    //  scene.addNode(skybox);
 
       function initXR() {
         xrButton = new WebXRButton({
